@@ -1,0 +1,400 @@
+@media only screen and (min-device-width: 1201px) and (max-device-width: 1440px) and (-webkit-min-device-pixel-ratio: 1) {
+    .footer-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+  }
+}
+@media only screen and (min-device-width: 992px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+  .footer--main {
+    width: 100%;
+    height: 100%;
+    padding: 5rem 4rem 7rem 4rem;
+    background: #6975e340;
+  }
+  .footer-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 0rem;
+  }
+  .footerflexhead img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  .Email-Send input {
+    width: 61%;
+  }
+  .sendMe {
+    font-weight: bold;
+  }
+  .Product h2 {
+    font-size: 2rem;
+  }
+
+  /* ===============Quick--Links=========== */
+  .Quick--Links h2 {
+    font-size: 20px;
+   
+  }
+  .Quick--Links li a{
+      padding-left: 3rem;
+  }
+  /* ===============Services=========== */
+  .Services h2 {
+    font-size: 20px;
+  }
+  .Services li a{
+    padding-left: 3rem;
+}
+  .Copyright {
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--font-family-pr);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--default);
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 992px) and (-webkit-min-device-pixel-ratio: 1) {
+    .footer--main {
+        width: 100%;
+        height: 100%;
+        padding: 7rem 2rem;
+        background: #6975e340;
+      }
+      .footer-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0rem 0rem;
+      }
+      .footerflexhead img {
+        width: 50px;
+        margin-right: 10px;
+      }
+      .Email-Send input {
+        display: none;
+        width: 200px;
+        font-size: 1.8rem;
+      }
+      .Email-Send ::placeholder {
+        font-size: 1.8rem;
+      }
+      .Email-Send :focus {
+        border: 1px solid var(--primary-color);
+      }
+      .sendMe {
+        display: none;
+        font-size: 16px;
+        padding: 10px 10px;
+        margin: 0px 10px;
+        font-weight: bold;
+      }
+      .Quick--Links h2 {
+        font-size: 1.8rem;
+        font-weight: 600;
+       
+      }
+      .Quick--Links li a{
+          font-size: 1.5rem;
+          padding-left: 1rem;
+          font-size: 600;
+      }
+      /* ===============Services=========== */
+      .Services h2 {
+        font-size: 1.8rem;
+        font-weight: 600;
+      }
+      .Services li a{
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        font-size: 600;
+    }
+      .Copyright {
+        bottom: -5%;
+        font-size: 1.6rem;
+        font-weight: 600;
+        text-align: center;
+      }
+}
+@media only screen and (min-device-width: 576px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+    .footer--main {
+        width: 100%;
+        height: 100%;
+        padding: 3rem 0rem 7rem 0rem;
+        background: #6975e340;
+      }
+      .footer-box {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0rem 0rem;
+      }
+      .footer-Codevo {
+        max-width: 34%;
+      }
+      .footerflexhead {
+        display: flex;
+        align-items: center;
+      }
+      .footerflexhead img {
+        width: 40px;
+        margin-right: 10px;
+      }
+      .footerflexhead .footerhading1 {
+        font-size: 20px;
+      }
+      .footer-Codevo p {
+        display: none;
+      }
+      .footer-Codevo h3 {
+        font-size: 20px;
+       margin: 0rem 1rem;
+      }
+      .footer-Codevo ul {
+        display: flex;
+        align-items: center;
+        margin: 5px 0px;
+      }
+      .footer-Codevo li {
+        width: 35px;
+        height: 35px;
+      }
+      .footer-Codevo i {
+        font-size: 20px;
+      }
+      .Email-Send input {
+        display: block;
+        width: 100%;
+        font-size: 1.6rem;
+      }
+      .sendMe{
+        display: block;
+          width: 100%;
+          margin: 0;
+      }
+      .Email-Send ::placeholder {
+        font-size: 1.6rem;
+      }
+      .Email-Send :focus {
+        border: 1px solid var(--primary-color);
+      }
+      .Product h2 {
+        font-size: 1.6rem;
+        font-weight: 600;
+      }
+      .Product li a{
+        font-size: 1.4rem;
+        padding-left: 0rem;
+        font-weight: 500;
+    }
+      .Quick--Links h2 {
+        font-size: 1.6rem;
+        font-weight: 600;
+       
+      }
+      .Quick--Links li a{
+          font-size: 1.4rem;
+          padding-left: 0rem;
+          font-size: 600;
+      }
+      /* ===============Services=========== */
+      .Services h2 {
+        font-size: 1.6rem;
+        font-weight: 600;
+      }
+      .Services li a{
+        font-size: 1.4rem;
+        padding-left: 1rem;
+        font-size: 600;
+    }
+      .Copyright {
+          position: absolute;
+        bottom: 5%;
+        font-size: 1.4rem;
+        font-weight: 600;
+      }
+}
+@media only screen and (min-device-width: 480px) and (max-device-width: 576px) and (-webkit-min-device-pixel-ratio: 2) {
+    .footer--main {
+        width: 100%;
+        height: 59rem;
+        padding: 3rem 0rem;
+        background: #6975e340;
+      }
+      .footer-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0rem 0rem;
+      }
+      .footer-Codevo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 80%;
+      }
+      .footerflexhead {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .footerflexhead img {
+        width: 60px;
+        margin-right: 15px;
+      }
+      .footerflexhead .footerhading1 {
+        font-size: 24px;
+        font-weight: bold;
+        color: #ff507d;
+      }
+      .footer-Codevo p {
+        display: block;
+        font-size: 1.8rem;
+        text-align: justify;
+      }
+      .footer-Codevo h3 {
+        font-size: 24px;
+       margin: 0rem 1rem;
+      }
+      .footer-Codevo ul {
+        display: flex;
+        align-items: center;
+        margin: 5px 0px;
+      }
+      .footer-Codevo li {
+        width: 40px;
+        height: 40px;
+      }
+      .footer-Codevo i {
+        font-size: 22px;
+      }
+      .Email-Send input {
+        width: 100%;
+        font-size: 2rem;
+      }
+      .sendMe{
+          width: 100%;
+          margin: 0;
+          font-weight: bold;
+      }
+      .Email-Send ::placeholder {
+        font-size: 2rem;
+      }
+      .Email-Send :focus {
+        border: 2px solid var(--primary-color);
+      }
+      .Product{
+          display: none;
+      }
+      .Quick--Links{
+          display: none;
+      }
+      /* ===============Services=========== */
+      .Services{
+          display: none;
+      }
+      .Copyright {
+        bottom: 3%;
+        font-size: 1.1rem;
+        font-weight: 700;
+        text-align: center;
+      }
+    
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .footer--main {
+        width: 100%;
+        height: 100%;
+        padding: 3rem 0rem 7rem 0rem;
+        background: #6975e340;
+      }
+      .footer-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0rem 0rem;
+      }
+      .footer-Codevo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 80%;
+      }
+      .footerflexhead {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .footerflexhead img {
+        width: 60px;
+        margin-right: 15px;
+      }
+      .footerflexhead .footerhading1 {
+        font-size: 24px;
+        font-weight: bold;
+        color: #ff507d;
+      }
+      .footer-Codevo p {
+        display: block;
+        font-size: 1.8rem;
+        text-align: justify;
+      }
+      .footer-Codevo h3 {
+        font-size: 24px;
+       margin: 0rem 1rem;
+      }
+      .footer-Codevo ul {
+        display: flex;
+        align-items: center;
+        margin: 5px 0px;
+      }
+      .footer-Codevo li {
+        width: 40px;
+        height: 40px;
+      }
+      .footer-Codevo i {
+        font-size: 22px;
+      }
+      .Email-Send input {
+        width: 100%;
+        font-size: 1.8rem;
+      }
+      .sendMe{
+          width: 100%;
+          margin: 0;
+      }
+      .Email-Send ::placeholder {
+        font-size: 1.8rem;
+      }
+      .Email-Send :focus {
+        border: 2px solid var(--primary-color);
+      }
+      .Product{
+          display: none;
+      }
+      .Quick--Links{
+          display: none;
+      }
+      /* ===============Services=========== */
+      .Services{
+          display: none;
+      }
+      .Copyright {
+        bottom: -2%;
+        font-size: 1.2rem;
+        font-weight: 700;
+        text-align: center;
+      }
+    
+}

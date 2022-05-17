@@ -1,0 +1,349 @@
+@media only screen and (min-device-width: 1201px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .HomeSec {
+    width: 100%;
+    
+  }
+  .home-main {
+    width: 100%;
+    height: 100%;
+    padding: 10rem 2rem 5rem 2rem;
+    background-color: var(--cultured);
+  }
+  .home-container {
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .home-body {
+    flex-basis: 51%;
+    margin-left: 0rem;
+    padding: 0rem 1rem;
+  }
+  .home-body h1 {
+    /* padding: 2rem 0rem; */
+    font-size: 5.5rem;
+  }
+  .home-body h1 > span {
+    font-size: 7rem;
+  }
+}
+@media only screen and (min-device-width: 992px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+  section {
+    width: 100%;
+    height: 100%;
+  }
+  .home-main {
+    width: 100%;
+  }
+  .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 1rem;
+  }
+  .home-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10rem;
+    margin-left: 0;
+  }
+  .home-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 62rem;
+  }
+  .home-image img {
+    width: 100%;
+    animation: updown 2s linear infinite;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 992px) and (-webkit-min-device-pixel-ratio: 1) {
+  body {
+    font-size: 56.8%;
+  }
+  section {
+    width: 100%;
+    height: 100%;
+  }
+  .home-main {
+    width: 100%;
+  }
+  .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 9rem;
+    padding-bottom: 0rem;
+  }
+  .home-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10rem 5rem 5rem 5rem;
+  }
+  .home-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60rem;
+  }
+  .home-image img {
+    width: 100%;
+    animation: updown 2s linear infinite;
+  }
+
+  .home-body h1 {
+    padding: 2rem 0rem;
+    font-size: 4.5rem;
+  }
+  .home-body h1 > span {
+    font-size: 6rem;
+  }
+  .home-body .heading2-style {
+    font-size: 2.6rem;
+  }
+  .home-body p {
+    font-size: 16px;
+    margin: 0rem 0rem;
+    padding: 1rem 0rem;
+    margin-top: 1rem;
+  }
+  .home-image {
+    width: 55rem;
+  }
+  .home-image img {
+    animation: updown 2s linear infinite;
+  }
+  @keyframes updown {
+    0%,
+    100% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+  }
+}
+@media only screen and (min-device-width: 576px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+  body {
+    font-size: 50.8%;
+  }
+  section {
+    width: 100%;
+    height: 100%;
+  }
+  .home-main {
+    width: 100%;
+  }
+  .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 9rem;
+    padding-bottom: 0rem;
+  }
+  .home-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10rem 5rem 5rem 5rem;
+  }
+  .home-body h1 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 4rem;
+  }
+  .home-body h1 > span {
+    font-size: 4.5rem;
+  }
+  .home-body .heading2-style {
+    font-size: 2.1rem;
+  }
+  .home-body p {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+  }
+  .home-image img {
+    width: 45rem;
+    animation: updown 2s linear infinite;
+  }
+  .btn-flex{
+    margin: 2rem 0rem;
+  }
+  .hire-btn {
+    margin: 25px 0px;
+    padding: 10px 40px;
+    border-radius: 26px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .down-btn{
+   margin-left: 2rem;
+    padding: 10px 25px;
+    border-radius: 26px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+@media only screen and (min-device-width: 480px) and (max-device-width: 576px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    font-size: 40.8%;
+  }
+  section {
+    width: 100%;
+    height: 100%;
+  }
+  .home-main {
+    width: 100%;
+  }
+  .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 9rem;
+    padding-bottom: 0rem;
+    padding-right: 1rem;
+  }
+  .home-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem 0rem;
+  }
+  .home-image {
+    width: 38rem;
+  }
+  .home-image img {
+    width: 100%;
+    animation: updown 2s linear infinite;
+  }
+  .home-body h1 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 4rem;
+  }
+  .home-body h1 > span {
+    font-size: 4.5rem;
+  }
+  .home-body .heading2-style {
+    font-size: 2.1rem;
+  }
+  .home-body p {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+
+  }
+
+  .btn-flex{
+    margin: 2rem 0rem;
+  }
+  .hire-btn {
+    margin: 25px 0px;
+    padding: 10px 40px;
+    border-radius: 26px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .down-btn{
+    margin-left: 2rem;
+    padding: 10px 25px;
+    border-radius: 26px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    font-size: 30.8%;
+  }
+  section {
+    width: 100%;
+    height: 100%;
+  }
+  .home-main {
+    width: 100%;
+  }
+  .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .home-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0rem;
+    padding: 1rem 2rem 1rem 2rem;
+  }
+  .home-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28rem;
+    padding: 2rem 0rem;
+  }
+  .home-image img {
+    width: 100%;
+    animation: updown 2s linear infinite;
+  }
+  .home-body h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 0rem;
+    font-size: 3.4rem;
+    letter-spacing: 2px;
+  }
+  .home-body h1 > span {
+    font-size: 6.2rem;
+    letter-spacing: 4px;
+  }
+  .home-body .heading2-style {
+    font-size: 2.5rem;
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+  }
+  .home-body p {
+    font-size: 1.6rem;
+    margin-top: 0rem;
+    padding-right: 0rem;
+  }
+
+  .btn-flex{
+    margin: 2rem 0rem 0rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .hire-btn {
+    margin: 0px 0px;
+    padding: 12px 50px;
+    border-radius: 26px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .down-btn{
+    margin-left: 0rem;
+    padding: 12px 30px;
+    border-radius: 26px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+}

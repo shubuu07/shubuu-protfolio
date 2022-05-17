@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Kaushan+Script&family=Montserrat:wght@400;500;600;700&family=Nunito:wght@300;400;700;800&family=Rubik:wght@300;400;500;600&family=Shojumaru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Kaushan+Script&family=Montserrat:wght@400;500;600;700&family=Nunito:wght@300;400;500;600;700;800&family=Rubik:wght@300;400;500;600&family=Shojumaru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Kaushan+Script&family=Montserrat:wght@400;500;600;700&family=Nunito:wght@300;400;500;600;700;800&family=Rubik+Wet+Paint&family=Rubik:wght@300;400;500;600&family=Shojumaru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Kaushan+Script&family=Montserrat:wght@400;500;600;700&family=Nunito:wght@300;400;500;600;700;800&family=Pacifico&family=Rubik+Wet+Paint&family=Rubik:wght@300;400;500;600&family=Shojumaru&display=swap");
+/* font-family: 'Rubik', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Nunito', sans-serif; */
+/* font-family: 'Rubik Wet Paint', cursive; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #6975e3;
+  --box-shadow: 0 5px 15px rgba(105, 117, 227, 0.7);
+  --light-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  --footer-color: rgba(105, 117, 227, 0.25);
+  --light-blue: rgba(105, 117, 227, 0.15);
+  --black: #0b132a;
+  --white: #fff;
+  --default: #4f5665;
+  --grey: #e0e0e0;
+  --yellow: #fea250;
+  --orange: #fa620c;
+  --pink: #ffbcbc;
+  --pinkOranges: #fa8072;
+  --blue: #389af5;
+  --brown: #a95e19;
+  --red-orange-crayola: #ff5252;
+  --space-cadet: hsl(249, 37%, 19%);
+  --pistachio: hsl(88, 50%, 60%);
+  --cultured: hsl(220, 13%, 95%);
+  --saffron: hsl(45, 91%, 58%);
+  --fontColor: hsl(240, 9%, 51%);
+  --font-family-pr: "Nunito", sans-serif;
+  --hoverColor: #ff507d;
+  --box-shadow-hover: 0 5px 15px rgba(255, 80, 125, 0.7);
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.HomeSec {
+  width: 100%;
+  
+}
+.home-main {
+  width: 100%;
+  height: 100%;
+  /* padding: 10rem; */
+  background-color: var(--cultured);
+}
+.home-container {
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-body {
+  flex-basis: 51%;
+  margin-left: 2rem;
+  padding: 0rem 1rem;
+}
+.home-body h1 {
+  padding: 10px 0px;
+  font-size: 55px;
+  font-family: "Rubik Wet Paint", cursive;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: var(--black);
+}
+.home-body h1 > span {
+  font-size: 75px;
+  font-family: "Rubik Wet Paint", cursive;
+  color: var(--space-cadet);
+}
+.home-body .heading2-style {
+  display: flex;
+  margin-top: 0.1rem;
+  font-family: var(--font-family-pr);
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: var(--black);
+  flex-direction: row;
+}
+.home-body p {
+  padding: 5px 0px;
+  font-family: var(--font-family-pr);
+  color: var(--default);
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 17px;
+  margin-top: 10px;
+  text-align: justify;
+}
+.home-body p > span {
+  font-size: 17px;
+  color: var(--space-cadet);
+  font-size: 20px;
+  font-weight: bolder;
+}
+.hire-btn {
+  text-decoration: none;
+  margin-top: 18px;
+  padding: 12px 45px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: var(--font-family-pr);
+  font-weight: 700;
+  background-color: var(--primary-color);
+  color: var(--white);
+  cursor: pointer;
+  transition: 1s all;
+  box-shadow: var(--box-shadow);
+}
+.hire-btn:hover {
+  background-color: var(--hoverColor);
+  color: var(--white);
+  box-shadow: var(--box-shadow-hover);
+}
+.down-btn{
+  margin-top: 18px;
+  margin-left: 18px;
+  padding: 12px 30px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: var(--font-family-pr);
+  font-weight: 700;
+  background-color: var(--primary-color);
+  color: var(--white);
+  cursor: pointer;
+  transition: 1s all;
+  box-shadow: var(--box-shadow);
+}
+.down-btn a{
+  text-decoration: none;
+  color: var(--white);
+}
+.down-btn:hover {
+  background-color: var(--hoverColor);
+  color: var(--white);
+  box-shadow: var(--box-shadow-hover);
+}
+.home-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 45%;
+}
+.home-image img {
+  width: 55rem;
+}
+.home-image img {
+  width: 100%;
+  animation: updown 2s linear infinite;
+}
+@keyframes updown {
+  0%,
+  100% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+

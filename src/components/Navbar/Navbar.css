@@ -1,0 +1,406 @@
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Kaushan+Script&family=Montserrat:wght@400;500;600;700&family=Nunito:wght@300;400;700;800&family=Rubik:wght@300;400;500;600&family=Shojumaru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Kaushan+Script&family=Montserrat:wght@400;500;600;700&family=Nunito:wght@300;400;500;600;700;800&family=Rubik:wght@300;400;500;600&family=Shojumaru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Kaushan+Script&family=Montserrat:wght@400;500;600;700&family=Nunito:wght@300;400;500;600;700;800&family=Rubik+Wet+Paint&family=Rubik:wght@300;400;500;600&family=Shojumaru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Kaushan+Script&family=Montserrat:wght@400;500;600;700&family=Nunito:wght@300;400;500;600;700;800&family=Pacifico&family=Rubik+Wet+Paint&family=Rubik:wght@300;400;500;600&family=Shojumaru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800&display=swap");
+* 
+/* font-family: 'Rubik', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Nunito', sans-serif; */
+/* font-family: 'Rubik Wet Paint', cursive; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #6975e3;
+  --box-shadow: 0 5px 15px rgba(105, 117, 227, 0.7);
+  --light-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  --footer-color: rgba(105, 117, 227, 0.25);
+  --light-blue: rgba(105, 117, 227, 0.15);
+  --black: #0b132a;
+  --white: #fff;
+  --default: #4f5665;
+  --grey: #e0e0e0;
+  --yellow: #fea250;
+  --orange: #fa620c;
+  --pink: #ffbcbc;
+  --pinkOranges: #fa8072;
+  --blue: #389af5;
+  --brown: #a95e19;
+  --red-orange-crayola: hsl(0, 100%, 66%);
+  --space-cadet: #241f42;
+  --pistachio: hsl(88, 50%, 60%);
+  --cultured: hsl(220, 13%, 95%);
+  --saffron: hsl(45, 91%, 58%);
+  --fontColor: #77778d;
+  --font-family-pr: "Nunito", sans-serif;
+  --hoverColor: #ff507d;
+  --box-shadow-hover: 0 5px 15px rgba(255, 80, 125, 0.7);
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.navbar-sec {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.navbar-con {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  padding: 10px 50px;
+  background-color: var(--white);
+  box-shadow: var(--light-box-shadow);
+  z-index: 1000;
+}
+.nav-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+.nav-logo img {
+  width: 50px;
+}
+.nav-logo span .logoheading {
+  font-size: 25px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--space-cadet);
+  letter-spacing: 1px;
+  font-family: "Raleway", sans-serif;
+}
+.nav-Tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+
+  /* display: none; */
+}
+.nav-Tab .linkStyle {
+  text-decoration: none;
+}
+.nav-Tab .linkStyle li {
+  list-style: none;
+  font-size: 20px;
+  font-family: var(--font-family-pr);
+  letter-spacing: 1px;
+  font-weight: 700;
+  cursor: pointer;
+  color: var(--space-cadet);
+  transition: 1s all;
+  position: relative;
+}
+.nav-Tab .linkStyle span {
+  /* color: var(--primary-color); */
+  transition: 1s all;
+}
+.nav-Tab .linkStyle span:hover {
+  color: var(--space-cadet);
+}
+.nav-Tab .linkStyle :hover {
+  color: var(--primary-color);
+}
+.nav-Tab .linkStyle ::before {
+  content: "";
+  position: absolute;
+  bottom: -30%;
+  width: 5px;
+  height: 5px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  z-index: 1001;
+  opacity: 0;
+}
+.nav-Tab .linkStyle :hover:before {
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  opacity: 1;
+}
+.Contact-Me {
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: var(--font-family-pr);
+  font-weight: 700;
+  background-color: var(--primary-color);
+  color: var(--white);
+  cursor: pointer;
+  transition: 1s all;
+  box-shadow: var(--light-box-shadow);
+  text-decoration: none;
+}
+.Contact-Me:hover {
+  background-color: var(--hoverColor);
+  color: var(--white);
+  box-shadow: var(--box-shadow-hover);
+}
+.menu-btn {
+  display: flex;
+  margin-right: 2rem;
+  display: none;
+}
+
+.menu-btn i {
+  font-size: 4.5rem;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1200px) {
+  body {
+    width: 100%;
+  }
+  .navbar-con {
+    padding: 10px 30px;
+  }
+  .nav-Tab {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3rem;
+    /* display: none; */
+    padding: 0rem 2rem;
+  }
+  .nav-Tab .linkStyle {
+    text-decoration: none;
+  }
+  .nav-Tab .linkStyle li {
+    list-style: none;
+    font-size: 20px;
+    font-family: var(--font-family-pr);
+    letter-spacing: 1px;
+    font-weight: 700;
+    cursor: pointer;
+    color: var(--space-cadet);
+    transition: 1s all;
+    position: relative;
+  }
+  .nav-Tab .linkStyle span {
+    color: var(--primary-color);
+    transition: 1s all;
+  }
+  .nav-Tab .linkStyle span:hover {
+    color: var(--space-cadet);
+  }
+  .nav-Tab .linkStyle :hover {
+    color: var(--primary-color);
+  }
+  .nav-Tab .linkStyle ::before {
+    content: "";
+    position: absolute;
+    bottom: -30%;
+    width: 5px;
+    height: 5px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    z-index: 1001;
+    opacity: 0;
+  }
+  .nav-Tab .linkStyle :hover:before {
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    opacity: 1;
+  }
+  .Contact-Me{
+    display: flex;
+  }
+  .Contact-Me span{
+    padding-left: .5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  body {
+    font-size: 58.5%;
+    width: 100%;
+  }
+  .nav-Tab {
+    display: none;
+  }
+
+  .nav-Tab-menu {
+    position: absolute;
+    top: 100%;
+    left: 2%;
+    margin: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #fff;
+    width: 100%;
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    z-index: 999;
+    transition: all 2s linear;
+    text-orientation: top;
+    border-radius: 0.5rem;
+  }
+  .nav-Tab-menu .linkStyle {
+    text-decoration: none;
+  }
+  .nav-Tab-menu .linkStyle li {
+    list-style: none;
+    font-size: 16px;
+    font-family: var(--font-family-pr);
+    letter-spacing: 1px;
+    font-weight: 700;
+    cursor: pointer;
+    color: var(--space-cadet);
+    transition: 1s all;
+    position: relative;
+  }
+  .nav-Tab-menu .linkStyle span {
+    color: var(--primary-color);
+    transition: 1s all;
+  }
+  .nav-Tab-menu .linkStyle span:hover {
+    color: var(--space-cadet);
+  }
+  .nav-Tab-menu .linkStyle :hover {
+    color: var(--primary-color);
+  }
+  .nav-Tab-menu .linkStyle ::before {
+    content: "";
+    position: absolute;
+    bottom: -30%;
+    width: 5px;
+    height: 5px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    z-index: 1001;
+    opacity: 0;
+  }
+  .nav-Tab-menu .linkStyle :hover:before {
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    opacity: 1;
+  }
+  .Contact-Me {
+    display: none;
+  }
+  .menu-btn {
+    display: block;
+    display: flex;
+    margin-right: 2rem;
+    border: 0.1px solid var(--primary-color);
+    border-radius: .4rem;
+  }
+  .menu-btn i {
+    font-size: 4.2rem;
+    color: var(--primary-color);
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 768px){
+  .navbar-con{
+    position: fixed;
+    top: 0%;
+    padding: 10px 40px;
+  }
+  .nav-Tab-menu{
+    width: 95.5%;
+  }
+  .nav-logo span .logoheading{
+    font-size: 1.8rem;
+  }
+  .Contact-Me{
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 576px){
+  .navbar-con{
+    padding: 10px 50px;
+  }
+  .nav-logo img {
+    width: 44px;
+  }
+  .nav-Tab-menu{
+    width: 93.5%;
+  }
+  .nav-logo span .logoheading{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .nav-Tab-menu-menu{
+    display: none;
+  }
+  .Contact-Me{
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+} 
+@media (min-width: 480px){
+  .navbar-con{
+    padding: 10px 30px;
+  }
+  .nav-logo img {
+    width: 40px;
+  }
+  .nav-Tab-menu{
+    width: 92.5%;
+  }
+  .nav-logo span .logoheading{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .nav-Tab-menu-menu{
+    display: none;
+  }
+  .Contact-Me{
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .navbar-con{
+      width: 100%;
+      padding: 10px 0px 10px 10px;
+    }
+    .nav-logo img {
+      width: 35px;
+    }
+    .nav-Tab-menu{
+      width: 88.5%;
+    }
+    .nav-logo span .logoheading{
+      font-size: 2.2rem;
+      font-weight: bold;
+    }
+    .nav-Tab-menu-menu{
+      display: none;
+    }
+    .Contact-Me{
+      padding: 10px 20px;
+      font-size: 18px;
+    }
+    .menu-btn i {
+      font-size: 4rem;
+      color: var(--primary-color);
+      cursor: pointer;
+    }
+}

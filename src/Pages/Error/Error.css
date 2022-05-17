@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Kaushan+Script&family=Montserrat:wght@400;500;600;700&family=Nunito:wght@300;400;500;600;700;800&family=Pacifico&family=Rubik+Wet+Paint&family=Rubik:wght@300;400;500;600&family=Shojumaru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800&display=swap");
+* 
+/* font-family: 'Rubik', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Nunito', sans-serif; */
+/* font-family: 'Rubik Wet Paint', cursive; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #6975e3;
+  --box-shadow: 0 5px 15px rgba(105, 117, 227, 0.7);
+  --light-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  --footer-color: rgba(105, 117, 227, 0.25);
+  --light-blue: rgba(105, 117, 227, 0.15);
+  --black: #0b132a;
+  --white: #fff;
+  --default: #4f5665;
+  --grey: #e0e0e0;
+  --yellow: #fea250;
+  --orange: #fa620c;
+  --pink: #ffbcbc;
+  --pinkOranges: #fa8072;
+  --blue: #389af5;
+  --brown: #a95e19;
+  --red-orange-crayola: hsl(0, 100%, 66%);
+  --space-cadet: #241f42;
+  --pistachio: hsl(88, 50%, 60%);
+  --cultured: hsl(220, 13%, 95%);
+  --saffron: hsl(45, 91%, 58%);
+  --fontColor: #77778d;
+  --font-family-pr: "Nunito", sans-serif;
+  --hoverColor: #ff507d;
+  --box-shadow-hover: 0 5px 15px rgba(255, 80, 125, 0.7);
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.ErrorSec{
+    width: 100%;
+    padding: 10rem;
+    background-color: #fff;
+}
+.Error_main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Error_box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Error_img{
+    margin-top: 5rem;
+    width: 90%;
+}
+.Error_box img{
+    width: 100%;
+    z-index: -1;
+}
+.Error_box h2{
+    position: absolute;
+    top: 5%;
+    font-size: 8rem;
+    font-weight: bold;
+    font-family: var(--font-family-pr);
+    color: #94a1b2;
+}
+.Error_box h3{
+    position: absolute;
+    bottom: 12%;
+    font-size: 4.7rem;
+    text-transform: capitalize;
+    color: #00214d;
+}
+.Error_box p{
+    position: absolute;
+    bottom: 6%;
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: var(--font-family-pr);
+    text-transform: capitalize;
+    color: rgb(140, 140, 140);
+}
+.Error_box button{
+    position: absolute;
+    bottom: -7%;
+    margin-top: 18px;
+    padding: 12px 45px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: var(--font-family-pr);
+    font-weight: 700;
+    background-color: rgb(0, 181, 24);
+    color: var(--white);
+    cursor: pointer;
+    transition: 1s all;
+    box-shadow:  0 5px 30px rgba(0, 181, 24, 0.5);
+
+}
+.ErrorBtnStyle{
+  text-decoration: none;
+  color: var(--white);
+}
+.Error_box button:hover {
+  background-color: var(--hoverColor);
+  color: var(--white);
+  box-shadow: var(--box-shadow-hover);
+}

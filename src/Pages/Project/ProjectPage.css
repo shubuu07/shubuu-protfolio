@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #6975e3;
+  --box-shadow: 0 5px 15px rgba(105, 117, 227, 0.7);
+  --box-shadow-hover: 0 5px 15px rgba(255, 80, 125, 0.7);
+  --light-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  --footer-color: rgba(105, 117, 227, 0.25);
+  --light-blue: rgba(105, 117, 227, 0.15);
+  --black: #0b132a;
+  --white: #fff;
+  --default: #4f5665;
+  --grey: #e0e0e0;
+  --yellow: #fea250;
+  --orange: #fa620c;
+  --pink: #ffbcbc;
+  --pinkOranges: #fa8072;
+  --blue: #389af5;
+  --brown: #a95e19;
+  --red-orange-crayola: hsl(0, 100%, 66%);
+  --space-cadet: hsl(249, 37%, 19%);
+  --pistachio: hsl(88, 50%, 60%);
+  --cultured: #f1f2f4;
+  --saffron: hsl(45, 91%, 58%);
+  --fontColor: #77778d;
+  --font-family-pr: "Nunito", sans-serif;
+  --light-gray: hsl(240, 9%, 51%);
+  --hoverColor: rgb(255, 80, 125);
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.ProjectSection{
+  background-color: var(--cultured);
+}
+.project-container {
+  width: 100%;
+  margin-top: 1rem;
+}
+.project-box {
+  position: relative;
+}
+.project-heading {
+  border-left: 10px dashed var(--hoverColor);
+  text-align: left;
+  margin-left: 1em;
+}
+.project-heading h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4rem;
+  padding-left: 1rem;
+}
+.project-heading h2 span {
+  color: var(--primary-color);
+}
+.navigation-bar {
+  margin: 3rem 2rem;
+}
+.navigation-bar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation-bar ul li {
+  list-style: none;
+  padding: 0rem 1rem;
+  
+}
+.navigation-bar ul li button {
+  padding: 1.3rem 2.3rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.6rem;
+  letter-spacing: 0.8px;
+  font-weight: 900;
+  text-transform: capitalize;
+  background-color: var(--grey);
+  font-family: var(--font-family-pr);
+  border-bottom: 2px solid var(--cultured);
+  color: var(--space-cadet);
+}
+.navigation-bar ul li button:hover {
+  border-bottom: 2px solid var(--hoverColor);
+  background-color: var(--grey);
+  color: var(--space-cadet);
+  box-shadow: 0px 0px 0px #0000;
+}
+.project-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+  padding: 2rem;
+  border-top: 2px dotted var(--primary-color);
+}
+.projectCard-box {
+  border: 1px solid var(--grey);
+  padding: 2.5rem 2.5rem;
+  margin: 0rem 1rem;
+  max-width: 30rem;
+  min-height: 20rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.1);
+  transition: 0.3s all;
+  background-color: var(--white);
+}
+.projectCard-box img {
+  width: 100%;
+  aspect-ratio: 1.1;
+  padding: 2rem;
+  animation: projectAnimation 3s linear infinite;
+}
+@keyframes projectAnimation {
+    0%,100%{
+        transform: translateY(-6px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    
+}
+.projectCard-box:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+  transform: translateY(-5px);
+}
+
+.card-containts h2 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: var(--space-cadet);
+  padding-bottom: 0.5rem;
+  text-transform: capitalize;
+  text-align: left;
+}
+.projectCard-box:hover .card-containts h2 {
+  color: var(--white);
+}
+.card-containts p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--default);
+  padding-bottom: 0.5rem;
+  font-family: var(--font-family-pr);
+  text-align: left;
+  line-height: 2rem;
+}
+.projectCard-box:hover .card-containts p {
+  color: var(--white);
+}
+.gethub-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 1rem;
+}
+.card-containts a{
+    text-decoration: none;
+}
+.card-containts button{
+  padding: 1.2rem 9rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 800;
+  text-transform: capitalize;
+  background-color: var(--grey);
+  font-family: var(--font-family-pr);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .4s all;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  
+}
+.card-containts button i{
+    font-size: 1.8rem;
+  font-weight: 800;
+  margin: 0rem 0.5rem;
+  list-style: none;
+  transition: .5s all;
+}
+.card-containts button:hover {
+    background-color: var(--saffron);
+    color: var(--black);
+    box-shadow: 0px 0px 0px #0000;
+  }

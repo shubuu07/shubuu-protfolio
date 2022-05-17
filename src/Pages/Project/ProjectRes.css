@@ -1,0 +1,80 @@
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+    .ProjectSection{
+        padding: 10rem;
+    }
+}
+@media only screen and (min-device-width: 992px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+    .ProjectSection{
+        padding: 10rem 5rem;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 992px) and (-webkit-min-device-pixel-ratio: 1) {
+    .ProjectSection{
+        padding: 10rem 5rem;
+    }
+    .navigation-bar ul {
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+    
+}
+@media only screen and (min-device-width: 576px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+    .ProjectSection{
+        padding: 10rem 5rem;
+    }
+
+}
+@media only screen and (min-device-width: 480px) and (max-device-width: 576px) and (-webkit-min-device-pixel-ratio: 2) {
+    .ProjectSection{
+        padding: 10rem 4rem;
+    }
+    .navigation-bar {
+        margin: 3rem 2rem;
+      }
+      .navigation-bar ul {
+        display: flex;
+        flex-direction: column;
+      }
+      .navigation-bar ul li {
+        list-style: none;
+        padding: .5rem 1rem;
+      }
+      .navigation-bar ul li button {
+          width: 200px;
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+      }
+
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .ProjectSection{
+        padding: 10rem 2rem;
+    }
+      .navigation-bar {
+        margin: 3rem 2rem;
+      }
+      .navigation-bar ul {
+        display: flex;
+        flex-direction: column;
+      }
+      .navigation-bar ul li {
+        list-style: none;
+        padding: .5rem 1rem;
+      }
+      .navigation-bar ul li button {
+          width: 200px;
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+      }
+}
+
+
+
+
+
+
+
+
+
+

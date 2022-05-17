@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #6975e3;
+  --box-shadow: 0 5px 15px rgba(105, 117, 227, 0.7);
+  --box-shadow-hover: 0 5px 15px rgba(255, 80, 125, 0.7);
+  --light-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  --footer-color: rgba(105, 117, 227, 0.25);
+  --light-blue: rgba(105, 117, 227, 0.15);
+  --black: #0b132a;
+  --white: #fff;
+  --default: #4f5665;
+  --grey: #e0e0e0;
+  --yellow: #fea250;
+  --orange: #fa620c;
+  --pink: #ffbcbc;
+  --pinkOranges: #fa8072;
+  --blue: #389af5;
+  --brown: #a95e19;
+  --red-orange-crayola: hsl(0, 100%, 66%);
+  --space-cadet: hsl(249, 37%, 19%);
+  --pistachio: hsl(88, 50%, 60%);
+  --cultured: #f1f2f4;
+  --saffron: hsl(45, 91%, 58%);
+  --fontColor: #77778d;
+  --font-family-pr: "Nunito", sans-serif;
+  --light-gray: hsl(240, 9%, 51%);
+  --hoverColor: rgb(255, 80, 125);
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.AboutSec{
+  background-color: var(--cultured);
+  padding: 6rem 5rem ;
+}
+.about--main {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about--box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+  padding: 20px 0px;
+  background-color: var(--white);
+}
+.AboutImg {
+  padding: 1rem 2rem;
+}
+.AboutImg img {
+  box-shadow: var(--box-shadow);
+  border-radius: 50%;
+}
+.about--box h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: var(--font-family-pr);
+  letter-spacing: 0.5px;
+}
+.about-para {
+  font-family: var(--font-family-pr);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--default);
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 22px;
+  padding: 5px;
+}
+.about-para span{
+  font-family: var(--font-family-pr);
+  font-size: 18px;
+  font-weight: bolder;
+  color: var(--primary-color);
+  letter-spacing: 1px;
+}
+.aboutFlexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--primary-color);
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  width: 73%;
+  padding: 2rem 0rem;
+  margin: 0.5rem 0rem;
+}
+.aboutLeft {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: column;
+  width: 50%;
+  border-color: var(--hoverColor);
+  border-right-style: groove;
+}
+.aboutLeft h3,
+.aboutRight h3 {
+  font-family: var(--font-family-pr);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--hoverColor);
+  text-align: center;
+  padding-bottom: 10px;
+}
+.aboutLeft ul li,
+.aboutRight ul li {
+  padding: 0.8rem 0rem;
+  list-style: none;
+  font-family: var(--font-family-pr);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--space-cadet);
+  text-transform: capitalize;
+}
+.aboutLeft ul li span,
+.aboutRight ul li span {
+  font-family: var(--font-family-pr);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--space-cadet);
+  text-transform: capitalize;
+}
+.aboutLeft ul li a{
+  text-decoration: none;
+  border-bottom: 0.5px solid var(--fontColor);
+  font-family: var(--font-family-pr);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--space-cadet);
+  text-transform: capitalize;
+}
+.aboutLeft ul li a:hover{
+  color: var(--hoverColor);
+}
+.aboutRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 20px;
+}
+.aboutRight ul li span {
+  border-bottom: 2px solid var(--fontColor);
+}
+.socialMedia ul{
+  display: flex;
+  align-items: center;
+  margin: 15px 0px;
+}
+.socialMedia li{
+  list-style: none;
+  outline: none;
+  width: 40px;
+  height: 40px;
+  margin: 0px 7px;
+  background-color: #6975e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: var(--box-shadow);
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.4s all;
+}
+.socialMedia li:hover{
+  transform: translateY(-10px);
+  background-color: var(--hoverColor);
+  box-shadow: var(--box-shadow-hover);
+  
+}
+.socialMedia i{
+  font-size: 22px;
+  color: var(--white);
+}

@@ -1,0 +1,372 @@
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .ContactPage {
+    padding: 10rem 10rem;
+  }
+  .contactBox {
+    width: 85%;
+    margin: 0rem 0rem;
+    padding: 1rem 0rem;
+    position: relative;
+    transition: 0.4s all;
+  }
+  .ContactPage-heading {
+    margin: 2rem 0rem 4rem 2rem;
+  }
+}
+@media only screen and (min-device-width: 992px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+  .ContactPage {
+    padding: 10rem 2rem 10rem 2rem;
+  }
+  .contactBox {
+    width: 100%;
+    margin: 0rem 2rem;
+    padding: 1rem 0rem;
+    position: relative;
+    transition: 0.4s all;
+  }
+  .ContactPage-heading {
+    margin: 2rem 0rem 4rem 4rem;
+  }
+  .contactFlex {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem 3rem;
+  }
+
+  .Contact--flexLeft {
+    flex-basis: 40%;
+    /* border-right: 3px solid var(--hoverColor); */
+    padding: 0rem 0rem;
+  }
+  .contact--flexRight {
+    flex-basis: 60%;
+  }
+  .nameFlex {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 992px) and (-webkit-min-device-pixel-ratio: 1) {
+  .ContactPage {
+    padding: 10rem 2rem 10rem 2rem;
+  }
+  .contactBox {
+    width: 100%;
+    margin: 0rem 2rem;
+    padding: 1rem 0rem;
+    position: relative;
+    transition: 0.4s all;
+  }
+  .contact--main {
+    padding: 0rem;
+  }
+  .ContactPage-heading {
+    margin: 2rem 0rem 4rem 4rem;
+  }
+  .contactFlex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 3rem;
+    flex-direction: column;
+  }
+
+  .Contact--flexLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 30%;
+    /* border-right: 3px solid var(--hoverColor); */
+    padding: 4rem 4rem;
+    margin-bottom: 2rem;
+  }
+  .Contact--flexLeft img {
+    width: 80%;
+  }
+  .contact--flexRight {
+    flex-basis: 60%;
+  }
+  .contactBox::after {
+    width: 5rem;
+    height: 5rem;
+  }
+  .contactBox::before {
+    width: 5rem;
+    height: 5rem;
+  }
+  .contact--flexRight h2 {
+    font-family: var(--font-family-pr);
+    font-weight: 900;
+    font-size: 3rem;
+  }
+}
+@media only screen and (min-device-width: 576px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+  .ContactPage {
+    padding: 10rem 2rem 10rem 2rem;
+  }
+  .contactBox {
+    width: 100%;
+    margin: 0rem 2rem;
+    padding: 1rem 0rem;
+    position: relative;
+    transition: 0.4s all;
+  }
+  .contact--main {
+    padding: 0rem;
+  }
+  .ContactPage-heading {
+    margin: 2rem 0rem 4rem 4rem;
+  }
+  .contactFlex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 3rem;
+    flex-direction: column;
+  }
+
+  .Contact--flexLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 30%;
+    padding: 4rem 4rem;
+    margin-bottom: 2rem;
+  }
+  .Contact--flexLeft img {
+    width: 90%;
+  }
+  .contact--flexRight {
+    flex-basis: 60%;
+  }
+  .contactBox::after {
+    width: 5rem;
+    height: 5rem;
+  }
+  .contactBox::before {
+    width: 5rem;
+    height: 5rem;
+  }
+  .contact--flexRight h2 {
+    font-family: var(--font-family-pr);
+    font-weight: 900;
+    font-size: 3.5rem;
+  }
+  .contact--flexRight ul {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding: 0rem 5rem 0rem 0rem;
+  }
+  .nameFlex {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .contact--flexRight ul li {
+    padding: 1.2rem 0rem;
+  }
+  .contact--flexRight ul li i {
+    font-size: 2.5rem;
+  }
+  .contact--flexRight ul li input {
+    width: 35rem;
+    font-size: 2rem;
+  }
+  .contact--flexRight ul li textarea {
+    width: 35rem;
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (min-device-width: 480px) and (max-device-width: 576px) and (-webkit-min-device-pixel-ratio: 2) {
+  .ContactPage {
+    padding: 10rem 2rem 10rem 2rem;
+  }
+  .contactBox {
+    width: 100%;
+    margin: 0rem 2rem;
+    padding: 1rem 0rem;
+    position: relative;
+    transition: 0.4s all;
+  }
+  .contact--main {
+    padding: 0rem;
+  }
+  .ContactPage-heading {
+    margin: 2rem 0rem 4rem 4rem;
+  }
+  .contactFlex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 3rem;
+    flex-direction: column;
+  }
+
+  .Contact--flexLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 30%;
+    padding: 4rem 1rem 4rem 1rem;
+    margin-bottom: 2rem;
+  }
+  .Contact--flexLeft img {
+    width: 90%;
+  }
+  .contact--flexRight {
+    flex-basis: 60%;
+  }
+  .contactBox::after {
+    width: 6rem;
+    height: 6rem;
+  }
+  .contactBox::before {
+    width: 6rem;
+    height: 6rem;
+  }
+  .contact--flexRight h2 {
+    font-family: var(--font-family-pr);
+    font-weight: 900;
+    font-size: 4rem;
+  }
+  .contact--flexRight ul {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding: 0rem 2rem 0rem 0rem;
+  }
+  .nameFlex {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .contact--flexRight ul li {
+    padding: 1.2rem 0rem;
+  }
+  .contact--flexRight ul li i {
+    font-size: 3rem;
+    padding: 0rem 1rem 0rem 0rem;
+  }
+  .contact--flexRight ul li input {
+    width: 31rem;
+    font-size: 2rem;
+  }
+  .contact--flexRight ul li textarea {
+    width: 31rem;
+    font-size: 1.8rem;
+  }
+  .submitBtn button {
+    margin-top: 1rem;
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: var(--font-family-pr);
+    font-weight: 900;
+    background-color: var(--primary-color);
+    color: var(--white);
+    cursor: pointer;
+    transition: 1s all;
+    box-shadow: var(--light-box-shadow);
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .ContactPage {
+        padding: 10rem 2rem 10rem 2rem;
+      }
+      .contactBox {
+        width: 100%;
+        margin: 0rem 2rem;
+        padding: 1rem 0rem;
+        position: relative;
+        transition: 0.4s all;
+      }
+      .contact--main {
+        padding: 0rem;
+      }
+      .ContactPage-heading {
+        margin: 2rem 0rem 4rem 0rem;
+      }
+      .contactFlex {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 3rem;
+        flex-direction: column;
+      }
+    
+      .Contact--flexLeft {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 30%;
+        padding: 4rem 1rem 4rem 1rem;
+        margin-bottom: 2rem;
+      }
+      .Contact--flexLeft img {
+        width: 100%;
+      }
+      .contact--flexRight {
+        flex-basis: 60%;
+      }
+      .contactBox::after {
+        width: 4.5rem;
+        height: 4.5rem;
+      }
+      .contactBox::before {
+        width: 4.5rem;
+        height: 4.5rem;
+      }
+      .contact--flexRight h2 {
+        font-family: var(--font-family-pr);
+        font-weight: 800;
+        font-size: 2.5rem;
+        padding-left: 1rem;
+        
+      }
+      .contact--flexRight ul {
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-direction: column;
+        padding: 0rem 0rem 0rem 0rem;
+      }
+      .nameFlex {
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+      .contact--flexRight ul li {
+        padding: 1.2rem 0rem;
+      }
+      .contact--flexRight ul li i {
+          display: none;
+      }
+      .contact--flexRight ul li input {
+        width: 25rem;
+        font-size: 1.8rem;
+      }
+      .contact--flexRight ul li textarea {
+        width: 25rem;
+        font-size: 1.8rem;
+      }
+      .submitBtn button {
+        margin-top: 1rem;
+        padding: 10px 30px;
+        font-size: 18px;
+        font-weight: 800;
+      }
+}

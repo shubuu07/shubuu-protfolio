@@ -1,0 +1,198 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800&display=swap');* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #6975e3;
+  --box-shadow: 0 5px 15px rgba(105, 117, 227, 0.7);
+  --box-shadow-hover: 0 5px 15px rgba(255, 80, 125, 0.7);
+  --light-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  --footer-color: rgba(105, 117, 227, 0.25);
+  --light-blue: rgba(105, 117, 227, 0.15);
+  --black: #0b132a;
+  --white: #fff;
+  --default: #4f5665;
+  --grey: #e0e0e0;
+  --yellow: #fea250;
+  --orange: #fa620c;
+  --pink: #ffbcbc;
+  --pinkOranges: #fa8072;
+  --blue: #389af5;
+  --brown: #a95e19;
+  --red-orange-crayola: #ff5252;
+  --space-cadet: hsl(249, 37%, 19%);
+  --pistachio: hsl(88, 50%, 60%);
+  --cultured: #f1f2f4;
+  --saffron: rgb(245, 197, 50);
+  --fontColor: #77778d;
+  --font-family-pr: "Nunito", sans-serif;
+  --light-gray: hsl(240, 9%, 51%);
+  --hoverColor: rgb(255, 80, 125);
+}
+.PriceSec{
+  background-color: var(--cultured);
+  padding: 10rem;
+}
+.pricing-container {
+  width: 100%;
+  padding: 2rem;
+}
+.price-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+}
+.price-card {
+  border-radius: 1rem;
+  box-shadow: var(--box-shadow);
+  background-color: var(--white);
+  width: 32rem;
+  height: auto;
+  position: relative;
+  transition: .4s all;
+}
+
+.price-card:hover {
+  transform: translateY(-15px);
+}
+
+.price-card:hover .Recommended{
+  opacity: 1;
+}
+.Recommended {
+    color: #fff;
+    background: var(--hoverColor);
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -10%;
+    top: 10.5%;
+    padding: .7rem 1.2rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    z-index: 10;
+    opacity: 0;
+    transition: 0.4s all;
+}
+.img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-div img {
+  width: 24rem;
+  aspect-ratio: 1;
+}
+.priceCard-content {
+  padding: 1rem 2rem;
+  line-height: 2rem;
+  background: #6975e31b;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.priceCard-content h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.6rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  padding: 1rem 0rem;
+  color: #041562;
+  font-family: 'Raleway', sans-serif;
+}
+.priceCard-content h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: var(--font-family-pr);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #5e5c7f;
+  text-transform: capitalize;
+  padding-bottom: 0.5rem;
+  letter-spacing: 0.5px;
+}
+.priceCard-content p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: var(--font-family-pr);
+  font-size: 1.4rem;
+  font-weight: 500;
+   color: #112031;
+  text-transform: capitalize;
+}
+.priceCard-content h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  padding: 1rem 0rem;
+  color: #2D46B9;
+ 
+}
+
+.priceCard-content h1 span {
+  font-size: 1.8rem;
+  margin-left: 0.5rem;
+}
+.price-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.priceCard-content button {
+  padding: 1.4rem 5rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s all;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  background-color: #292C6D;
+  color: var(--white);
+}
+.priceCard-content button i {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0rem 1rem;
+  list-style: none;
+}
+.priceCard-content button:hover {
+  background-color: var(--hoverColor);
+  color: var(--white);
+  box-shadow: 0px 0px 0px #0000;
+}
+.PricePage-heading {
+  border-left: 10px dashed var(--hoverColor);
+  text-align: left;
+  margin: 1rem 2rem 0rem 1rem;
+}
+.PricePage-heading h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4rem;
+  padding-left: 1rem;
+}
+.PricePage-heading h2 span {
+  color: var(--primary-color);
+}

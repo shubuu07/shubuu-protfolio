@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #6975e3;
+  --box-shadow: 0 5px 15px rgba(105, 117, 227, 0.7);
+  --box-shadow-hover: 0 5px 15px rgba(255, 80, 125, 0.7);
+  --light-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  --footer-color: rgba(105, 117, 227, 0.25);
+  --light-blue: rgba(105, 117, 227, 0.15);
+  --black: #0b132a;
+  --white: #fff;
+  --default: #4f5665;
+  --grey: #e0e0e0;
+  --yellow: #fea250;
+  --orange: #fa620c;
+  --pink: #ffbcbc;
+  --pinkOranges: #fa8072;
+  --blue: #389af5;
+  --brown: #a95e19;
+  --red-orange-crayola: hsl(0, 100%, 66%);
+  --space-cadet: hsl(249, 37%, 19%);
+  --pistachio: hsl(88, 50%, 60%);
+  --cultured: #f1f2f4;
+  --saffron: hsl(45, 91%, 58%);
+  --fontColor: #77778d;
+  --font-family-pr: "Nunito", sans-serif;
+  --light-gray: hsl(240, 9%, 51%);
+  --hoverColor: rgb(255, 80, 125);
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.ContactPage{
+    background-color: var(--cultured);
+}
+.ContactPage-heading {
+  border-left: 10px dashed var(--hoverColor);
+  text-align: left;
+  margin: 1em 2rem 4rem 1rem;
+}
+.ContactPage-heading h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4rem;
+  padding-left: 1rem;
+}
+.ContactPage-heading h2 span {
+  color: var(--primary-color);
+}
+.contactBox {
+  width: 85%;
+  margin: 2rem 0rem;
+  padding: 1rem 0rem;
+  position: relative;
+  transition: 0.4s all;
+}
+
+.contactBox::after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  background-color: var(--primary-color);
+  width: 6rem;
+  height: 6rem;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 50%;
+  transition: 1s ease-in-out;
+}
+.contactBox::before {
+  content: "";
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  background-color: var(--primary-color);
+  width: 6rem;
+  height: 6rem;
+  border-bottom-left-radius: 12px;
+  border-top-right-radius: 50%;
+  transition: 1s ease-in-out;
+}
+.contactBox:hover {
+  box-shadow: var(--box-shadow-hover);
+}
+.contactBox:hover.contactBox::before {
+  background-color: var(--hoverColor);
+}
+.contactBox:hover.contactBox::after {
+  background-color: var(--hoverColor);
+}
+.contactFlex {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5rem 3rem;
+}
+
+.Contact--flexLeft {
+  flex-basis: 45%;
+  /* border-right: 3px solid var(--hoverColor); */
+  padding: 0rem 1rem;
+}
+.Contact--flexLeft img {
+  width: 100%;
+  animation: 3s imgUpDown linear infinite;
+}
+@keyframes imgUpDown {
+  0%,
+  100% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+.contact--flexRight {
+  flex-basis: 50%;
+}
+.contact--flexRight h2 {
+  padding-bottom: 5px;
+  padding-left: 40px;
+  font-family: "Rubik", sans-serif;
+}
+.contact--flexRight ul {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+}
+.nameFlex {
+  display: flex;
+  justify-content: space-between;
+}
+.contact--flexRight ul li {
+  list-style: none;
+  padding: 1rem 0rem;
+}
+.contact--flexRight ul li i {
+  font-size: 2.2rem;
+  color: var(--fontColor);
+  padding: 10px;
+}
+.contact--flexRight ul li input {
+  outline: none;
+  padding: 1rem 1rem;
+  font-size: 1.6rem;
+  font-family: var(--font-family-pr);
+  font-weight: 500;
+  transition: 0.1s all;
+  border: none;
+  background-color: #dddddd;
+  color: var(--black);
+  border-radius: 4px;
+}
+.contact--flexRight ul li textarea {
+  width: 90%;
+  outline: none;
+  padding: 1rem 1rem;
+  font-size: 1.6rem;
+  font-family: var(--font-family-pr);
+  font-weight: 500;
+  transition: 0.1s all;
+  border: none;
+  background-color: #dddddd;
+  color: var(--black);
+  border-radius: 4px;
+}
+.contact--flexRight ul li input:focus,
+.contact--flexRight ul li textarea:focus {
+  border-bottom: 2px solid var(--hoverColor);
+}
+.submitBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.submitBtn button {
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: var(--font-family-pr);
+  font-weight: 700;
+  background-color: var(--primary-color);
+  color: var(--white);
+  cursor: pointer;
+  transition: 1s all;
+  box-shadow: var(--light-box-shadow);
+}
